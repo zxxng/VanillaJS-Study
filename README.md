@@ -45,6 +45,7 @@ Vanilla JS 실력 향상을 위한 문제 풀이 Study
 5. 모두에게 PR 리뷰를 받은 후 merge 합니다.
 
 ## ⚠️ 스터디 규칙
+
 - 문제 풀이 마감은 오후 3시입니다. 3시 전까지 PR을 올려주세요!<br>
 - 스터디는 평일만 진행합니다.
 
@@ -83,7 +84,7 @@ Vanilla JS 실력 향상을 위한 문제 풀이 Study
     <td>DAY7</td>
     <td>FAQ 페이지 만들기</td>
   </tr>
-  <!-- <tr>
+  <tr>
     <td>DAY8</td>
     <td>식당 메뉴판 만들기</td>
   </tr>
@@ -94,5 +95,73 @@ Vanilla JS 실력 향상을 위한 문제 풀이 Study
   <tr>
     <td>DAY10</td>
     <td>스크롤바를 따라 움직이는 내비게이션 바 만들기</td>
-  </tr> -->
+  </tr>
+  <tr>
+    <td>DAY11</td>
+    <td>서로 다른 내용을 보여주는 탭 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY12</td>
+    <td>카운트다운 시계 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY13</td>
+    <td>나만의 Lorem ipsum 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY14</td>
+    <td>식료품 리스트 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY15</td>
+    <td>이미지 슬라이더 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY16</td>
+    <td>가위바위보 게임 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY17</td>
+    <td>사이먼 게임 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY18</td>
+    <td>플랫포머 게임 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY19</td>
+    <td>두들 점프 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY20</td>
+    <td>플래피 버드 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY21</td>
+    <td>메모리 게임 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY22</td>
+    <td>두더지 잡기 게임 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY23</td>
+    <td>커넥트 포 게임 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY24</td>
+    <td>뱀 게임 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY25</td>
+    <td>스페이스 인베이더 게임 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY26</td>
+    <td>프로거 게임 만들기</td>
+  </tr>
+  <tr>
+    <td>DAY27</td>
+    <td>테트리스 게임 만들기</td>
+  </tr>
 </table>
