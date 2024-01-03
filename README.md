@@ -15,7 +15,6 @@ Vanilla JS 실력 향상을 위한 문제 풀이 Study
 		<td><a href='https://github.com/ssb1565b'>ssb1565b</a></td>
 		<td><a href='https://github.com/zxxng'>zxxng</a></td>
 	</tr>
-
 </table>
 
 ## 📌 스터디 진행방식
@@ -44,6 +43,10 @@ Vanilla JS 실력 향상을 위한 문제 풀이 Study
    ```
 4. 과제 풀이를 완료한 후 PR을 올립니다. (반영브랜치: 닉네임 -> main)
 5. 모두에게 PR 리뷰를 받은 후 merge 합니다.
+
+## ⚠️ 스터디 규칙
+- 문제 풀이 마감은 오후 3시입니다. 3시 전까지 PR을 올려주세요!<br>
+- 스터디는 평일만 진행합니다.
 
 ## 🔍 스터디 목록
 
