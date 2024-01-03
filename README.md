@@ -26,7 +26,7 @@ Vanilla JS 실력 향상을 위한 문제 풀이 Study
    ```
    git switch -c 닉네임
    ```
-2. DAY0\_과제명 폴더에 본인의 닉네임으로 폴더를 생성합니다.
+2. DAY0 폴더에 본인의 닉네임으로 폴더를 생성합니다.
    ```shell
    # example
    DAY1
