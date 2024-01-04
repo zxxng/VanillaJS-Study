@@ -19,7 +19,7 @@ Vanilla JS 실력 향상을 위한 문제 풀이 Study
 
 ## 📌 스터디 진행방식
 
-> <a href="https://www.freecodecamp.org/korean/news/javascript-projects-for-beginners/">초보자를 위한 40가지의 자바스크립트 프로젝트</a> 사이트에 출제된 문제 매일 1개씩 풀기
+> <a href="https://www.freecodecamp.org/korean/news/javascript-projects-for-beginners/">초보자를 위한 40가지의 자바스크립트 프로젝트</a> 사이트에 출제된 문제 모두 풀기
 
 1. 닉네임명으로 브랜치를 생성합니다.
    ```
@@ -38,8 +38,8 @@ Vanilla JS 실력 향상을 위한 문제 풀이 Study
    # example
    DAY1
    └── zxxng
-    ├── index.css
-    └── style.js
+    ├── index.js
+    └── style.css
    ```
 4. 과제 풀이를 완료한 후 PR을 올립니다. (반영브랜치: 닉네임 -> main)
 5. 모두에게 PR 리뷰를 받은 후 merge 합니다.
@@ -47,7 +47,7 @@ Vanilla JS 실력 향상을 위한 문제 풀이 Study
 ## ⚠️ 스터디 규칙
 
 - 문제 풀이 마감은 오후 3시입니다. 3시 전까지 PR을 올려주세요!<br>
-- 스터디는 평일만 진행합니다.
+- 스터디는 주 3회(변동가능) 진행합니다.
 
 ## 🔍 스터디 목록
 
