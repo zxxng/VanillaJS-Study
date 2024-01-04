@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --nav-height: 48px;
+}
+
+nav {
+  height: var(--nav-height);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  height: calc(100vh - var(--nav-height));
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  text-align: center;
+}
+
+div > p {
+  background-color: #222;
+  width: 649px;
+  height: 72px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+div > p > span {
+  color: #eee;
+}
