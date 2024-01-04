@@ -46,12 +46,11 @@ Vanilla JS 실력 향상을 위한 문제 풀이 Study
    # example
    DAY1
    └── zxxng
-    ├── index.js
+    ├── index.html
     └── style.css
    ```
 4. 과제 풀이를 완료한 후 PR을 올립니다. (반영브랜치: 닉네임 -> main)
 5. 모두에게 PR 리뷰를 받은 후 merge 합니다.
-
 
 ## 🔍 스터디 목록
 
