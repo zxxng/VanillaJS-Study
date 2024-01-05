@@ -1,6 +1,6 @@
 class ColorGenerator {
   constructor() {
-    this.color = '#395b51';
+    this.color = 'royalblue';
   }
 
   getColor(type) {
@@ -11,7 +11,7 @@ class ColorGenerator {
   }
 
   #generateSimpleColor() {
-    const colorList = ['green', 'red', 'rgba(133,122,200)', 'royalblue', 'skyblue'];
+    const colorList = ['green', 'red', 'yellow', 'salmon', 'gold', 'royalblue', 'skyblue', 'coral'];
     const randomNumber = Math.floor(Math.random() * colorList.length);
     return colorList[randomNumber];
   }

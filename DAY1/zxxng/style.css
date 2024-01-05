@@ -34,10 +34,6 @@ nav {
   color: var(--color-blue);
 }
 
-.nav-bar .btns button:first-child {
-  margin-right: 10px;
-}
-
 .nav-bar .btns button:hover {
   text-decoration: underline;
 }
@@ -48,7 +44,7 @@ nav {
 
 main {
   height: calc(100vh - var(--nav-height));
-  background-color: #395b51;
+  background-color: royalblue;
   display: flex;
   justify-content: center;
   align-items: center;

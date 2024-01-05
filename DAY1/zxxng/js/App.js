@@ -6,7 +6,7 @@ class App {
     this.hexBtn = document.querySelector('.hex-btn');
     this.clickBtn = document.querySelector('.click-btn');
     this.main = document.getElementById('main');
-    this.colorName = document.querySelector('.color');
+    this.color = document.getElementById('color');
     this.colorGenerator = new ColorGenerator();
     this.type = 'simple';
     this.bindEvents();
@@ -26,7 +26,7 @@ class App {
     this.clickBtn.addEventListener('click', () => {
       const color = this.colorGenerator.getColor(this.type);
       this.main.style.backgroundColor = color;
-      this.colorName.textContent = color;
+      this.color.textContent = color;
     });
   }
 
