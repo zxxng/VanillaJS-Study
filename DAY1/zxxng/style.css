@@ -13,7 +13,6 @@ button {
   --color-blue: royalblue;
   --color-black: #222;
   --color-white: #fff;
-  --main-color: #395b51;
 }
 
 nav {
@@ -43,9 +42,13 @@ nav {
   text-decoration: underline;
 }
 
+.nav-bar .btns .active {
+  color: var(--color-blue);
+}
+
 main {
   height: calc(100vh - var(--nav-height));
-  background-color: var(--main-color);
+  background-color: #395b51;
   display: flex;
   justify-content: center;
   align-items: center;
