@@ -3,15 +3,25 @@
   margin: 0;
 }
 
+button {
+  all: unset;
+  cursor: pointer;
+}
+
 :root {
   --nav-height: 48px;
+  --color-blue: royalblue;
+  --color-black: #222;
+  --color-white: #fff;
+  --main-color: #395b51;
 }
 
 nav {
   height: var(--nav-height);
-  background-color: #fff;
+  background-color: var(--color-white);
   display: flex;
   justify-content: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .nav-bar {
@@ -21,9 +31,21 @@ nav {
   align-items: center;
 }
 
+.nav-bar h1 {
+  color: var(--color-blue);
+}
+
+.nav-bar .btns button:first-child {
+  margin-right: 10px;
+}
+
+.nav-bar .btns button:hover {
+  text-decoration: underline;
+}
+
 main {
   height: calc(100vh - var(--nav-height));
-  background-color: #eee;
+  background-color: var(--main-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,19 +55,34 @@ main {
   text-align: center;
 }
 
-div > p {
-  background-color: #222;
+.main-content > p {
+  background-color: var(--color-black);
   width: 649px;
   height: 72px;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
-  color: white;
+  color: var(--color-white);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
 
-div > p > span {
-  color: #eee;
+.main-content .color {
+  color: var(--color-blue);
+  margin-left: 10px;
+}
+
+.main-content .click-btn {
+  font-size: 20px;
+  border: solid 2px var(--color-black);
+  padding: 7px 15px;
+  border-radius: 7px;
+  box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main-content .click-btn:hover {
+  color: var(--color-white);
+  background-color: var(--color-black);
 }
