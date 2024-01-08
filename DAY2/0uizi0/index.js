@@ -14,16 +14,14 @@ const changeColor = (num) => {
 const changeNumber = (num, state) => {
   switch (state) {
     case "decrease":
-      num--;
-      break;
+      return num - 1;
     case "reset":
-      num = 0;
-      break;
+      return 0;
     case "increase":
-      num++;
-      break;
+      return num + 1;
+    default:
+      return num;
   }
-  return num;
 };
 
 /** 버튼 클릭 시 이벤트 진행 */
