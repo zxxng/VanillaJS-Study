@@ -1,11 +1,7 @@
 class Counter {
   constructor() {
-    this.displayCount = document.getElementById('count');
     this.count = 0;
-  }
-
-  getCount() {
-    return this.count;
+    this.displayCount = document.getElementById('count');
   }
 
   decreaseCount() {
