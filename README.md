@@ -1,4 +1,4 @@
-# VanillaJS-Stusdy
+# VanillaJS-Study
 
 Vanilla JS 실력 향상을 위한 문제 풀이 Study
 
@@ -24,7 +24,8 @@ Vanilla JS 실력 향상을 위한 문제 풀이 Study
 ## ⚠️ 스터디 일정
 
 - 스터디는 주 3회(월/수/금) 진행합니다.<br>
-- 문제 풀이 마감은 오후 3시입니다. 3시 전까지 PR을 올려주세요!
+- 문제 풀이 마감은 밤 12시 입니다.<br>
+- 제출 다음 날은 PR 리뷰를 남겨주세요!
 
 ## 📌 스터디 진행방식
 
@@ -45,12 +46,11 @@ Vanilla JS 실력 향상을 위한 문제 풀이 Study
    # example
    DAY1
    └── zxxng
-    ├── index.js
+    ├── index.html
     └── style.css
    ```
 4. 과제 풀이를 완료한 후 PR을 올립니다. (반영브랜치: 닉네임 -> main)
 5. 모두에게 PR 리뷰를 받은 후 merge 합니다.
-
 
 ## 🔍 스터디 목록
 

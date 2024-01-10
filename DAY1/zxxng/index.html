@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Color Flipper</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+	<nav>
+		<div class="nav-bar">
+			<h1>Color Flipper</h1>
+			<div class="btns">
+				<button class="simple-btn active">Simple</button>
+				<button class="hex-btn">Hex</button>
+			</div>
+		</div>
+	</nav>
+
+	<main id="main">
+		<div class="main-content">
+			<p>Background Color : <span id="color">royalblue</span></p>
+			<button class="click-btn">CLICK ME</button>
+		</div>
+	</main>
+
+	<script type="module">
+		import App from "./js/App.js";
+
+		const app = new App();
+	</script>
+</body>
+
+</html>
