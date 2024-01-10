@@ -1,0 +1,64 @@
+/** reset.css */
+body,
+html {
+  margin: 0;
+  height: 100vh;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  height: 50px;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: cornflowerblue;
+  color: white;
+}
+
+/** main.css */
+.color-point {
+  color: cornflowerblue;
+}
+
+.header {
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 5px 7px 0px #80808075;
+  align-items: center;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  background-color: red;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 95vh;
+}
+
+#color {
+  color: red;
+}
+
+.title {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #282828;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.title p:nth-child(1) {
+  margin-right: 10px;
+}
