@@ -22,7 +22,7 @@ h1 {
   font-weight: bold;
 }
 
-#counter {
+#count {
   font-size: 90px;
   font-weight: bold;
   margin: 10px 0;
@@ -34,4 +34,12 @@ h1 {
   border-radius: 7px;
   padding: 5px 10px;
   margin: 0 5px;
+}
+
+.btns button:hover {
+  background-color: black;
+  color: white;
+  transition:
+    background-color 1s,
+    color 1s;
 }
