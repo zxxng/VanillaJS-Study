@@ -20,8 +20,15 @@ class Counter {
   }
 
   #updateCount() {
-    this.displayCount.textContent = this.count;
+    this.#changeDisplayCount();
+    this.#changeColor();
+  }
 
+  #changeDisplayCount() {
+    this.displayCount.textContent = this.count;
+  }
+
+  #changeColor() {
     if (this.count < 0) this.displayCount.style.color = 'red';
     else if (this.count > 0) this.displayCount.style.color = 'green';
     else this.displayCount.style.color = 'black';
