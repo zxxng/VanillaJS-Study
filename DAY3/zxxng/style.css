@@ -1,0 +1,135 @@
+/* reset css */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+/* styles */
+:root {
+  --color-point: #49a6e9;
+  --color-text: #102a42;
+}
+body {
+  height: 100vh;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  color: var(--color-text);
+}
+
+.underline {
+  width: 80px;
+  height: 4px;
+  background-color: var(--color-point);
+  margin: 5px auto 50px auto;
+}
+
+section {
+  background-color: white;
+  width: 80vw;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #eee;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/* img */
+.profile-img::before {
+  content: '”';
+  /* before 내부 텍스트 요소 적용 속성 */
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  /* before 요소 적용 속성 */
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: var(--color-point);
+  margin-top: 15px;
+  margin-left: -110px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-image: url('https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 10px -3px var(--color-point);
+}
+
+/* text */
+.reviews {
+  margin: 20px 0;
+}
+
+.reviews h2 {
+  color: var(--color-text);
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.reviews h3 {
+  color: var(--color-point);
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.reviews p {
+  color: #617d98;
+  line-height: 20px;
+}
+
+/* button */
+.page-btns button {
+  width: 13px;
+  height: 13px;
+  border-top: 3px solid var(--color-point);
+  border-radius: 2px;
+  margin: 5px;
+}
+
+.page-btns button:first-child {
+  transform: rotate(-45deg);
+  border-left: 3px solid var(--color-point);
+}
+
+.page-btns button:last-child {
+  transform: rotate(45deg);
+  border-right: 3px solid var(--color-point);
+}
+
+.surprise-me {
+  border: 2px solid var(--color-point);
+  padding: 3px 5px;
+  border-radius: 5px;
+  color: var(--color-point);
+  background-color: rgba(73, 166, 233, 0.1);
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+  margin-top: 10px;
+}
+
+.surprise-me:hover {
+  background-color: var(--color-point);
+  color: var(--color-text);
+}
