@@ -1,0 +1,19 @@
+body,
+html {
+  margin: 0;
+  height: 100vh;
+  background: var(--clr-grey-10);
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
