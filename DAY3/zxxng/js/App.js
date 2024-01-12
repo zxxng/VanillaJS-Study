@@ -8,9 +8,9 @@ class App {
 
   constructor() {
     this.#carousel = new Carousel();
-    this.#prevBtn = this.img = document.getElementById('prev-btn');
-    this.#nextBtn = this.img = document.getElementById('next-btn');
-    this.#randomBtn = this.img = document.getElementById('random-btn');
+    this.#prevBtn = document.getElementById('prev-btn');
+    this.#nextBtn = document.getElementById('next-btn');
+    this.#randomBtn = document.getElementById('random-btn');
     this.#bindEvent();
   }
 
