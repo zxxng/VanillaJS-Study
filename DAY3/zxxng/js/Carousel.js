@@ -2,13 +2,17 @@ import data from './data.js';
 
 class Carousel {
   #reviewData;
+  #img;
+  #name;
+  #job;
+  #review;
 
   constructor() {
     this.#reviewData = 0;
-    this.img = document.getElementById('img');
-    this.name = document.getElementById('name');
-    this.job = document.getElementById('job');
-    this.review = document.getElementById('review');
+    this.#img = document.getElementById('img');
+    this.#name = document.getElementById('name');
+    this.#job = document.getElementById('job');
+    this.#review = document.getElementById('review');
   }
 
   updateReviewData(type) {
@@ -23,10 +27,10 @@ class Carousel {
   }
 
   #chageDisplay() {
-    this.img.style.backgroundImage = `url(${data[this.#reviewData].imgUrl})`;
-    this.name.textContent = data[this.#reviewData].name;
-    this.job.textContent = data[this.#reviewData].job;
-    this.review.textContent = data[this.#reviewData].review;
+    this.#img.style.backgroundImage = `url(${data[this.#reviewData].imgUrl})`;
+    this.#name.textContent = data[this.#reviewData].name;
+    this.#job.textContent = data[this.#reviewData].job;
+    this.#review.textContent = data[this.#reviewData].review;
   }
 
   #changeToPrevData() {
