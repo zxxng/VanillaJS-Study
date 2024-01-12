@@ -1,0 +1,54 @@
+/** reset.css */
+body,
+html {
+  margin: 0;
+  height: 100vh;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  height: 50px;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: cornflowerblue;
+  color: white;
+}
+
+/** main.css */
+main {
+  height: 100vh;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container span {
+  font-size: xxx-large;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.negative {
+  color: red;
+}
+.zero {
+  color: black;
+}
+.positive {
+  color: green;
+}
