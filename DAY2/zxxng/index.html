@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Counter</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<main>
+		<h1>Counter</h1>
+		<p id="count">0</p>
+		<div class="btns">
+			<button type="button" class="decrease-btn">DECREASE</button>
+			<button type="button" class="reset-btn">RESET</button>
+			<button type="button" class="increase-btn">INCREASE</button>
+		</div>
+	</main>
+
+	<script type="module">
+		import App from './js/App.js';
+		const app = new App();
+	</script>
+</body>
+
+</html>
