@@ -44,7 +44,12 @@ class Carousel {
   }
 
   #changeToRandomData() {
-    const randomNumber = Math.floor(Math.random() * data.length);
+    let randomNumber = this.#reviewData;
+
+    // randomNumber와 this.#reviewData가 같으면 다시 생성하는 코드
+    while (randomNumber === this.#reviewData) {
+      randomNumber = Math.floor(Math.random() * data.length);
+    }
     this.#reviewData = randomNumber;
   }
 }
