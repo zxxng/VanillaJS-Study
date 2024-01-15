@@ -1,4 +1,4 @@
-const data = Object.freeze([
+const data = [
   {
     imgUrl: 'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
     name: 'Susan Smith',
@@ -27,6 +27,6 @@ const data = Object.freeze([
     review:
       'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic.',
   },
-]);
+];
 
 export default data;
