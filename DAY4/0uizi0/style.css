@@ -1,0 +1,84 @@
+:root {
+  --clr-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --clr-white: white;
+  --clr-skyblue: #49a6e9;
+  --clr-bright-skyblue: hsl(205, 86%, 81%);
+}
+
+/** reset.css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/** main.css */
+nav {
+  background: var(--clr-white);
+  box-shadow: var(--clr-box-shadow);
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.nav-toggle {
+  transition-duration: 0.5s;
+  border: none;
+  background-color: transparent;
+  color: var(--clr-skyblue);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  transform: rotate(90deg);
+  color: black;
+}
+
+.links li a {
+  display: block;
+  padding: 0.75rem;
+  transition-duration: 0.5s;
+}
+
+.links li a:hover {
+  background: var(--clr-bright-skyblue);
+  color: var(--clr-skyblue);
+  padding-left: 1.5rem;
+}
+
+.hide {
+  overflow: hidden;
+  max-height: 0;
+  transition-duration: 0.5s;
+}
+
+.show {
+  overflow: hidden;
+  max-height: 500px;
+  transition-duration: 0.5s;
+}
