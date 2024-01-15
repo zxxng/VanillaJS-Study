@@ -27,10 +27,12 @@ class Carousel {
   }
 
   #chageDisplay() {
-    this.#img.style.backgroundImage = `url(${data[this.#reviewData].imgUrl})`;
-    this.#name.textContent = data[this.#reviewData].name;
-    this.#job.textContent = data[this.#reviewData].job;
-    this.#review.textContent = data[this.#reviewData].review;
+    const item = data[this.#reviewData];
+
+    this.#img.style.backgroundImage = `url(${item.imgUrl})`;
+    this.#name.textContent = item.name;
+    this.#job.textContent = item.job;
+    this.#review.textContent = item.review;
   }
 
   #changeToPrevData() {
