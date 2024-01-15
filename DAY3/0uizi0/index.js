@@ -46,6 +46,10 @@ nextBtn.addEventListener("click", () => {
 });
 
 randomBtn.addEventListener("click", () => {
-  currentId = getRandom();
+  let randomId;
+  do {
+    randomId = getRandom();
+  } while (currentId === randomId);
+  currentId = randomId;
   changeReview(currentId);
 });
