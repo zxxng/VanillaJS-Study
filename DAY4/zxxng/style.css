@@ -73,8 +73,7 @@ h1 img {
 }
 
 .hide {
-  max-height: 0px;
-  overflow: hidden;
+  display: none;
 }
 
 .menu {

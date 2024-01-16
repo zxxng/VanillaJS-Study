@@ -1,6 +1,6 @@
 const toggleBtn = document.querySelector('.nav-toggle');
+const hide = document.querySelector('.hide');
 
 toggleBtn.addEventListener('click', () => {
-  const hide = document.querySelector('.hide');
   hide.classList.toggle('hide');
 });
