@@ -60,13 +60,17 @@ button {
   transition: all 0.3s;
 }
 
-nav {
-  width: 400px;
-  height: 100vh;
-  background-color: white;
+.hide {
+  display: none;
+}
+
+.nav-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 400px;
+  height: 100vh;
+  background-color: white;
 }
 
 .nav-header {
