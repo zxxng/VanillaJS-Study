@@ -71,6 +71,7 @@ button {
   width: 400px;
   height: 100vh;
   background-color: white;
+  transition: width ease 0.1s;
 }
 
 .nav-header {
@@ -133,4 +134,15 @@ button {
 .fab:hover {
   color: var(--clr-primary-1);
   transition: color 0.3s;
+}
+
+@media screen and (max-width: 680px) {
+  #toggle-btn {
+    display: none;
+  }
+
+  .nav-container {
+    width: 100vw;
+    transition: width ease 0.1s;
+  }
 }
